@@ -1,7 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// filepath: /Users/jovitaeliana/Personal/Funvita/vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/funvita-website/',
-})
+  build: {
+    outDir: 'dist',
+  },
+  base: '/funvita-website/', // Ensure this matches your GitHub Pages repository name
+});
