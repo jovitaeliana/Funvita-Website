@@ -21,7 +21,7 @@ const BusinessSite = () => {
       </div>
     </div>
     <button className="bg-gradient-to-r from-amber-400 to-amber-500 text-white px-6 py-2 rounded-full font-medium transition-all hover:shadow-lg hover:shadow-amber-200 active:scale-95">
-      Hubungi Kami
+    <a href="mailto:funvitaindonesia@gmail.com" className="text-white">Hubungi Kami</a>
     </button>
   </div>
 </nav>
@@ -37,7 +37,7 @@ const BusinessSite = () => {
             Training & Mentoring Collaboration Network Indonesia
           </p>
           <button className="bg-gradient-to-r from-amber-400 to-amber-500 text-white px-8 py-4 rounded-full font-medium text-lg transition-all hover:shadow-xl hover:shadow-amber-500/20 active:scale-95">
-            Hubungi Kami Sekarang
+          <a href="mailto:funvitaindonesia@gmail.com" className="text-white">Hubungi Kami Sekarang</a>
           </button>
         </div>
       </div>
@@ -137,8 +137,7 @@ const BusinessSite = () => {
             <div>
               <h3 className="font-bold text-xl mb-6">Social Media</h3>
               <div className="flex space-x-6">
-                <a href="#" className="text-blue-100 hover:text-amber-400 transition-colors">Instagram</a>
-                <a href="#" className="text-blue-100 hover:text-amber-400 transition-colors">Facebook</a>
+              <a href="https://www.instagram.com/funvitaindonesia" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-amber-400 transition-colors">Instagram</a>
               </div>
             </div>
             <div>
